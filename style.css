@@ -1,0 +1,597 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.img_principal {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.titulo {
+  text-align: center;
+  color: #f84f00;
+  font-family: sans-serif;
+  font-size: 80px;
+  margin-top: 2.5%;
+}
+.titulo_1 {
+  text-align: center;
+  color: #f84f00;
+  font-family: sans-serif;
+  font-size: 40px;
+  margin-top: 2.5%;
+  padding-bottom: 0.25em;
+}
+.text_principal {
+  color: #fff;
+  line-height: 50px;
+  font-size: 30px;
+  padding: 0.5%;
+  margin-top: 1%;
+  font-family: sans-serif;
+}
+
+.text_principal1 {
+  color: #fff;
+  line-height: 50px;
+  font-size: 30px;
+  padding: 0.5%;
+  margin-top: -1%;
+  margin-bottom: 7%;
+  font-family: sans-serif;
+}
+.titulo_2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: sans-serif;
+  font-size: 360%;
+  color: #f84f00;
+}
+.titulo_3 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: sans-serif;
+  font-size: 360%;
+  color: #f84f00;
+}
+.caixa-de-texto {
+  max-width: 65%;
+  padding: 10px;
+}
+.caixa-de-texto_2 {
+  padding: 15px;
+  width: 30%;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15%;
+}
+.text {
+  width: 50%;
+  margin-left: 20px;
+  padding: 1%;
+  font-size: 127%;
+  font-family: sans-serif;
+  line-height: 30px;
+  text-align: left;
+}
+.text_3 {
+  text-align: center;
+  font-size: 150%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+}
+.caixa {
+  margin: auto;
+  width: 70%;
+  height: 90%;
+  background-image: linear-gradient(to right, #fa8822, #f83600);
+  border-radius: 2px;
+}
+.text_1 {
+  font-size: 165%;
+  padding: 10px 10px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  line-height: 35px;
+  color: #f84f00;
+  line-height: 40px;
+}
+.text_6 {
+  font-size: 165%;
+  padding: 10px 10px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  line-height: 35px;
+  line-height: 40px;
+}
+.text_2 {
+  font-size: 135%;
+  padding: 10px 10px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  line-height: 35px;
+}
+.text_final {
+  text-align: justify;
+  font-size: 140%;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 35px;
+  width: 100%;
+}
+.da {
+  width: 100%;
+}
+.end {
+  width: 71%;
+}
+.end-wrapper {
+  background-image: url(); /* Andrew coloca uma imagem de fundo*/
+  background-image: linear-gradient(to right, #eee5e4, #fdf6f3);
+  color: #353333;
+  width: 100%;
+}
+.titulo_final {
+  text-align: center;
+  color: #f84f00;
+  font-family: sans-serif;
+  font-size: 360%;
+}
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+.fa-whatsapp {
+  margin-top: 16px;
+}
+
+.botão {
+  background-color: #29ac00;
+  margin-top: 0%;
+  margin-bottom: 5%;
+  font-size: 210%;
+  border-radius: 9px;
+  border: 0;
+  text-align: center;
+  display: inline-block;
+}
+.zap {
+  margin-top: 11px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-block-end: 10px;
+  color: #fff;
+}
+.con {
+  padding: 0;
+  background-image: url("./LPindex.png");
+  background-size: cover; /* ajusta a imagem para cobrir todo o elemento div */
+  background-position: center; /* centraliza a imagem no elemento div */
+  background-repeat: no-repeat; /* impede a imagem de se repetir */
+
+  display: flex; /* define o elemento div como um flex container */
+  justify-content: center; /* centraliza a imagem horizontalmente */
+  align-items: center; /* centraliza a imagem verticalmente */
+}
+
+#pedroso-games {
+  width: 30em;
+  padding-top: 5em;
+  max-width: 100em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 80%;
+}
+.grid-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.carlos {
+  width: 20em;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+@keyframes anima {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.02);
+  }
+}
+button:hover {
+  animation-name: anima;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.container {
+  margin: 190px;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  padding: auto;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+}
+.en,
+.en_1 {
+  display: inline-flex;
+  margin-top: -100px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  font-family: sans-serif;
+}
+.icon {
+  width: 53px;
+  height: 53px;
+}
+.icon-big {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.TEX1 {
+  width: 50%;
+  line-height: 25px;
+}
+.TEX2 {
+  width: 50;
+  line-height: 25px;
+}
+
+.TEX3 {
+  width: 50%;
+  line-height: 25px;
+}
+.TEX4 {
+  width: 50%;
+  line-height: 25px;
+}
+.content_end {
+  display: inline-flex;
+  width: 50%;
+}
+.ed {
+  display: inline-flex;
+}
+main {
+  background-image: linear-gradient(to right, #fa8822, #f83600);
+  margin-top: -100px;
+}
+.img {
+  width: 300px;
+}
+.te {
+  font-size: 120%;
+
+  color: #fff;
+}
+.foo {
+  display: inline-flex;
+  font-size: 80%;
+}
+main i {
+  color: #fff;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.p1 {
+  font-size: 120%;
+  line-height: 30px;
+}
+.ideia {
+  font-family: sans-serif;
+  font-size: 200%;
+  color: #f84f00;
+}
+@media screen and (max-width: 768px) {
+  .box {
+    flex-wrap: wrap;
+  }
+.icon-big{
+  margin-top: 2.5rem;
+}
+  #pedroso-games {
+    display: none;
+  }
+  .titulo {
+    font-size: 245%;
+    margin-top: 15%;
+  }
+  .titulo_1 {
+    font-size: 150%;
+    margin-top: 4%;
+    text-align: center;
+  }
+  .text_principal {
+    font-size: 135%;
+    line-height: 35px;
+    color: #000;
+    text-align: left;
+    margin-top: 5%;
+  }
+  .text_principal1 {
+    font-size: 135%;
+    line-height: 35px;
+    text-align: left;
+    color: #000;
+    margin-top: -3%;
+  }
+  .caixa-de-texto {
+    max-width: 100%;
+    padding: 20px;
+  }
+  .titulo_2 {
+    font-size: 270%;
+  }
+  .text {
+    margin-top: 3%;
+    text-align: center;
+    width: 80%
+  }
+  .text_1 {
+    font-size: 140%;
+    text-align: center;
+    line-height: 30px;
+    margin-top: -5%;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+  .botão {
+    font-size: 140%;
+    /* margin-top: 5%; */
+    padding: 8px;
+  }
+  .zap {
+    font-size: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .grid-container {
+    display: block;
+  }
+  .grid-item {
+    display: block;
+  }
+  .content {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0%;
+  }
+  .ideia {
+    
+    font-family: sans-serif;
+    color: #f84f00;
+    
+    font-size: 150%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: -3%;
+  }
+  .caixa {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #fa8822, #f83600);
+    border-radius: 20;
+  }
+  .titulo_3 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 270%;
+    color: #f84f00;
+  }
+  .end {
+    width: 100%;
+  }
+  .titulo_final {
+    text-align: center;
+    color: #f84f00;
+    font-family: sans-serif;
+    font-size: 310%;
+  }
+  .text_final {
+    text-align: justify;
+    font-size: 135%;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 30px;
+    width: 90%;
+  }
+  .p1 {
+    font-size: 120%;
+    line-height: 30px;
+    width: 95%;
+    height: 100%;
+  }
+  #titulo {
+    
+    text-align: center;
+  }
+  .con {
+    padding: 0;
+    background-color: #eeeeee;
+    background-image: url("./");
+    background-size: cover; /* ajusta a imagem para cobrir todo o elemento div */
+    background-position: center; /* centraliza a imagem no elemento div */
+    background-repeat: no-repeat; /* impede a imagem de se repetir */
+
+    display: flex; /* define o elemento div como um flex container */
+    justify-content: center; /* centraliza a imagem horizontalmente */
+    align-items: center; /* centraliza a imagem verticalmente */
+  }
+  
+}
+
+
+@media  (min-width: 300px) and (max-width: 480px) {
+  .box {
+    flex-wrap: wrap;
+  }
+
+  #pedroso-games {
+    display: none;
+  }
+  .titulo {
+    font-size: 275%;
+    margin-top: 15%;
+  }
+  .titulo_1 {
+    font-size: 120%;
+    text-align: center;
+  }
+  .text_principal {
+    font-size: 135%;
+    line-height: 35px;
+    color: #000;
+    text-align: left;
+    margin-top: 5%;
+  }
+  .text_principal1 {
+    font-size: 135%;
+    line-height: 35px;
+    text-align: left;
+    color: #000;
+    margin-top: 5%;
+  }
+  .caixa-de-texto {
+    max-width: 100%;
+    padding: 20px;
+  }
+  .titulo_2 {
+    font-size: 270%;
+  }
+  .text {
+    margin-left: 5px;
+    width: 80%;
+  }
+  .text_1 {
+    font-size: 110%;
+    text-align: center;
+    /* font-size: inherit; */
+    line-height: 30px;
+    margin-top: -5%;
+  }
+  .botão {
+    font-size: 140%;
+    /* margin-top: 5%; */
+    padding: 8px;
+  }
+  .zap {
+    font-size: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .grid-container {
+    display: block;
+  }
+  .grid-item {
+    display: block;
+  }
+  .content {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0%;
+  }
+  .ideia {
+    font-family: sans-serif;
+    color: #f84f00;
+    margin-top: -5%;
+    font-size: medium;
+  }
+  .caixa {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #fa8822, #f83600);
+    border-radius: 20;
+  }
+  .titulo_3 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 270%;
+    color: #f84f00;
+  }
+  .end {
+    width: 100%;
+  }
+  .titulo_final {
+    text-align: center;
+    color: #f84f00;
+    font-family: sans-serif;
+    font-size: 310%;
+  }
+  .text_final {
+    text-align: justify;
+    font-size: 135%;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 30px;
+    width: 90%;
+  }
+  .p1 {
+    font-size: 120%;
+    line-height: 30px;
+    width: 95%;
+    height: 100%;
+  }
+  #titulo {
+    margin-right: 3%;
+    text-align: center;
+
+  }
+  .con {
+    padding: 0;
+    background-color: #eeeeee;
+    background-image: url("./");
+    background-size: cover; /* ajusta a imagem para cobrir todo o elemento div */
+    background-position: center; /* centraliza a imagem no elemento div */
+    background-repeat: no-repeat; /* impede a imagem de se repetir */
+
+    display: flex; /* define o elemento div como um flex container */
+    justify-content: center; /* centraliza a imagem horizontalmente */
+    align-items: center; /* centraliza a imagem verticalmente */
+  }
+}
